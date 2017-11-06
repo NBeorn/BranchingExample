@@ -13,6 +13,8 @@ namespace BranchingExample
             Console.WriteLine("What is your name?");
             string userName = Console.ReadLine().ToUpper();
 
+            Console.WriteLine("Hello " + userName);
+
         }
     }
 }
