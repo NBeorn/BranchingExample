@@ -10,6 +10,9 @@ namespace BranchingExample
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your name?");
+            string userName = Console.ReadLine().ToUpper();
+
         }
     }
 }
